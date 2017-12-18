@@ -1,0 +1,58 @@
+.banner{
+	font-family:arial;
+	text-shadow: 0px 0px 1px #000; 
+	color:#fff;
+}
+.right{
+	float:right;
+	display: inline-flex;
+}
+.icon-color:{
+	background: ;
+	color: #fff;
+}
+.glow:hover{
+	color:#007bff;
+}
+
+.loader{
+  position: relative;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.loader div{
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  animation: load 0.7s linear infinite;
+  background: linear-gradient(#f1c40f, #3498db, #e74c3c);
+}
+
+.loader div::after{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 30px;
+  width: 30px;
+  background: #ddd;
+  border-radius: 50%;
+}
+.white{
+  text-decoration:none;
+  color:#fff;
+}
+.white:hover{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer{
+  bottom:0px;
+  width: 100%;
+  position:relative;
+}
+
